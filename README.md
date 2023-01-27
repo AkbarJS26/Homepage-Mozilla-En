@@ -6,6 +6,7 @@ Hi everyone, this is my first project after I learned about making websites from
 ## In this project i use :
 
 - HTML
+- CSS
 - [Bootstrap Framework Version V5.3](https://getbootstrap.com/)
 - Vanilla Javascript
 - [AOS - Animate On Scroll](https://michalsnik.github.io/aos/)
