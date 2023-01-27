@@ -1,4 +1,4 @@
-# Mozilla Homepage Clone English Version
+# Mozilla Homepage Clone English Language Version
 Hi everyone, this is my first project after I learned about making websites from the front-end side by myself through Youtube tutorials. This is a clone project, I cloned the English version of the Mozilla homepage. This project is not 100% the same as the original, there are some differences that I have. Starting from using icons, then animations when website pages are scrolled, and navbars on the tablet and mobile versions.
 
 ----
