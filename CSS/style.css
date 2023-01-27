@@ -1,0 +1,286 @@
+:root {
+    --interFont: 'Inter', sans-serif;
+    --zillaFont: 'Zilla Slab', serif;
+    --headerBGColor: #7542E5;
+    --jarakSection: 7em;
+}
+
+p,
+a,
+button,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--interFont);
+}
+
+h1,
+h2 {
+    font-family: var(--zillaFont);
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+/* NAVBAR */
+nav p {
+    margin-bottom: 0;
+}
+
+.navbar {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transition: all 1s;
+}
+
+.navbar .container .navbar-toggler {
+    padding: 0;
+    border: 0;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.navbar .container .navbar-toggler:focus {
+    --bs-navbar-toggler-focus-width: 0 !important;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item .dropdown-toggle::after {
+    display: none !important;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item .nav-link {
+    transition: all .5s;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: var(--headerBGColor) !important;
+}
+
+.navbar.showNavbar {
+    animation: animationNavbarShow 1s alternate;
+}
+
+@keyframes animationNavbarShow {
+    from {
+        margin-top: -5em;
+    }
+
+    to {
+        margin-top: 0;
+    }
+}
+
+/* NAVBAR */
+
+/* NAVBAR OFFCANVAS */
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: transparent !important;
+}
+
+.accordion-button:focus {
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0 rgba(13, 110, 253, 0.25);
+}
+
+.offcanvas.showCanvas {
+    animation: animationShowCanvas .8s all alternate;
+}
+
+@media animationShowCanvas {
+    from {
+        transform: translateX(10em);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* NAVBAR OFFCANVAS END */
+
+/* SUBMENU FIREFOX BROWSER, PRODUCTS, WHO WE ARE INNOVATION */
+.navbar .container .collapse .navbar-nav .nav-item .dropdown-menu .container .row .col-xl-6 a .link .title p {
+    font-size: .8em;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item .dropdown-menu .container .row .col-xl-6:hover {
+    background: #F9F9FB;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item .dropdown-menu .container .row .col-xl-6:active {
+    background: #ededf0;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item .dropdown-menu .container .row .col-xl-6 a:hover h6 {
+    text-decoration: underline;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item .dropdown-menu .container .row .col .view-all-browser a:hover,
+.navbar .container .collapse .navbar-nav .nav-item .dropdown-menu .container .row .col .view-all-products a:hover {
+    text-decoration: underline !important;
+
+}
+
+/* SUBMENU FIREFOX BROWSER, PRODUCTS, WHO WE ARE INNOVATION END */
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 90vh;
+    background-color: var(--headerBGColor);
+}
+
+header .container .row .col-lg-6 a {
+    font-size: .8rem;
+}
+
+header .container .row .col-lg-6 .btn:hover {
+    background-color: #a87dff;
+    color: #fff;
+}
+
+header .container .row .col-lg-6 a:hover {
+    text-decoration: underline !important;
+}
+
+/* HEADER */
+
+/* MORE POWER TO YOU */
+main #more-power-to-you {
+    margin-top: var(--jarakSection);
+    height: 50%;
+}
+
+main #more-power-to-you .container .row .col-lg-5 .power a:hover {
+    text-decoration: none;
+}
+
+/* MORE POWER TO YOU END */
+
+/* FEATURED MOZILLA */
+main #featured-mozilla {
+    margin-top: var(--jarakSection);
+}
+
+/* FEATURED MOZILLA END */
+
+/* CONTENT MOZILLA FEATURED */
+main #content-mozilla-featured {
+    margin-top: var(--jarakSection);
+}
+
+main #content-mozilla-featured .container .row .col-lg-6 .btn:hover {
+    background-color: #ededf0;
+    color: #000;
+}
+
+/* CONTENT MOZILLA FEATURED END */
+
+/* FIREFOX BROWSER */
+main #firefox-browser {
+    margin-top: var(--jarakSection);
+}
+
+/* FIREFOX BROWSER END */
+
+/* POCKET */
+main #pocket {
+    margin-top: var(--jarakSection);
+}
+
+/* POCKET END */
+
+/* FIREFOX RELAY */
+main #firefox-relay {
+    margin-top: var(--jarakSection);
+}
+
+/* FIREFOX RELAY END */
+
+/* HEALTHY INTERNET */
+main #healthy-internet {
+    margin-top: var(--jarakSection);
+    height: 50%;
+}
+
+main #healthy-internet .container .row .col-lg-6 .support a:hover {
+    text-decoration: none;
+}
+
+/* HEALTHY INTERNET END */
+
+/* LOVE THE WEB */
+main #love-the-web {
+    margin-top: var(--jarakSection);
+}
+
+main #love-the-web .container .row .col-lg-5 form .btn:hover {
+    background-color: #ededf0;
+    color: #000;
+}
+
+main #love-the-web .container .row .col-lg-5 form input:hover,
+main #love-the-web .container .row .col-lg-5 form input:focus,
+main #love-the-web .container .row .col-lg-5 form select:hover,
+main #love-the-web .container .row .col-lg-5 form select:focus {
+    border-color: #000;
+}
+
+
+/* LOVE THE WEB END */
+
+/* PRIVACY */
+main #privacy {
+    background-color: #20123A;
+    padding: 6em 0;
+    margin-top: var(--jarakSection);
+    width: 100%;
+}
+
+main #privacy .container .row .col-lg-6 .privacy a {
+    font-size: .8rem;
+}
+
+/* PRIVACY END */
+
+/* FOOTER */
+footer {
+    background-color: #000;
+    padding: 5em 0;
+}
+
+footer .container .row .col-lg-2 a:hover {
+    text-decoration: underline !important;
+}
+
+footer .container .row .col-lg-2 .sosmed-mozilla a,
+footer .container .row .col-lg-2 .sosmed-firefox a {
+    transition: all .5s;
+}
+
+footer .container .row .col-lg-2 .sosmed-mozilla a:hover,
+footer .container .row .col-lg-2 .sosmed-firefox a:hover {
+    color: var(--headerBGColor) !important;
+}
+
+footer .container .line {
+    height: 1px;
+    width: 100%;
+    margin-top: 4em;
+    background-color: #373746;
+}
+
+footer .container .col-lg-8 a,
+footer .container .col-lg-8 p {
+    font-size: .8rem;
+}
+
+footer .container .col-lg-8 a:hover {
+    text-decoration: none;
+}
+
+footer .container .col-lg-8 p a:hover {
+    text-decoration: none;
+}
+
+/* FOOTER END */

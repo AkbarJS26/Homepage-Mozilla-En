@@ -1,0 +1,264 @@
+@media (min-width: 300px) {
+
+    /* OFF CANVAS */
+    .offcanvas {
+        width: 100% !important;
+    }
+
+    .offcanvas .offcanvas-body .accordion .accordion-item .accordion-collapse .accordion-body .container .row .col-sm-6 a .link .title p {
+        font-size: .8em;
+        margin-bottom: 0;
+    }
+
+    .offcanvas .offcanvas-body .accordion .accordion-item .accordion-collapse .accordion-body .container .row .col-sm-6 a:active {
+        background-color: #ededf0;
+    }
+
+    .offcanvas .offcanvas-body .accordion .accordion-item .accordion-collapse .accordion-body .container .row .col a:active {
+        color: #7542E5 !important;
+    }
+
+    .offcanvas .offcanvas-header .btn-close {
+        background-color: #e1e1e1;
+    }
+
+    .offcanvas .button-download .btn:active {
+        color: #fff;
+        border-color: #7542E5;
+        background-color: #7542E5;
+    }
+
+    /* OFF CANVAS END */
+
+    /* HEADER */
+    header {
+        padding: 30em 0 !important;
+    }
+
+    /* HEADER END */
+
+    /* MORE POWER TO YOU */
+    main #more-power-to-you {
+        background-color: #F9F9FB;
+    }
+
+    /* MORE POWER TO YOU END */
+
+    /* HEALTHY INTERNET */
+    main #healthy-internet {
+        background-color: #F9F9FB;
+    }
+
+    /* HEALTHY INTERNET END */
+
+    /* LOVE THE WEB */
+    main #love-the-web .container .row .col-lg-5 img {
+        width: 100%;
+    }
+
+    /* LOVE THE WEB END */
+
+    /* FOOTER */
+    footer .container .col-lg-2 select {
+        width: 45%;
+    }
+
+    /* FOOTER END */
+}
+
+@media (min-width: 576px) {
+
+    /* HEADER */
+    header {
+        padding: 32em 0 !important;
+    }
+
+    /* HEADER END */
+}
+
+@media (min-width: 768px) {
+
+    /* OFF CANVAS */
+    .offcanvas {
+        width: 70% !important;
+    }
+
+    /* OFF CANVAS END */
+
+    /* HEADER */
+    header {
+        padding: 34em 0 !important;
+    }
+
+    /* HEADER END */
+
+    /* FOOTER */
+    footer .container .col-lg-2 select {
+        width: 30%;
+    }
+
+    /* FOOTER END */
+}
+
+@media (min-width: 992px) {
+
+    /* SUBMENU*/
+    .navbar .container .collapse .navbar-nav .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .container .collapse .navbar-nav .nav-item .dropdown-menu {
+        width: 320px;
+    }
+
+    .navbar .container .collapse .navbar-nav .nav-item .dropdown-menu .container .row .col-xl-6 .link img,
+    .navbar .container .collapse .navbar-nav .nav-item .dropdown-menu .container .row .col-xl-6 .link svg {
+        width: 20px !important;
+    }
+
+    /* SUBMENU END */
+
+    /* HEADER */
+    header {
+        padding: 22em 0 !important;
+    }
+
+    /* HEADER END */
+
+    /* MORE POWER TO YOU */
+    main #more-power-to-you {
+        background-color: transparent;
+    }
+
+    main #more-power-to-you .container .row .col-lg-6 img {
+        position: relative;
+        z-index: 2;
+    }
+
+    main #more-power-to-you .container .row .col-lg-5 {
+        background-color: #F9F9FB;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    main #more-power-to-you .container .row .col-lg-5 .power {
+        background-color: #F9F9FB;
+        width: 40%;
+        margin-left: auto;
+        padding: 4em 0;
+        margin-right: 5em;
+    }
+
+    /* MORE POWER TO YOU END */
+
+    /* HEALTHY INTERNET */
+    main #healthy-internet {
+        background-color: transparent;
+        overflow: hidden;
+    }
+
+    main #healthy-internet .container .row .col-lg-5 img {
+        position: relative;
+        z-index: 2;
+        left: 150%;
+        width: 120%;
+        transform: translateX(-3em);
+    }
+
+    main #healthy-internet .container .row .col-lg-6 {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        background-color: #F9F9FB;
+    }
+
+
+    main #healthy-internet .container .row .col-lg-6 .support {
+        width: 40%;
+        margin-left: 6em;
+        padding: 2.5em 0;
+    }
+
+    /* HEALTHY INTERNET END */
+
+    /* LOVE THE WEB */
+    main #love-the-web .container .row .col-lg-5 img {
+        width: 80%;
+    }
+
+    /* LOVE THE WEB END */
+
+    /* FOOTER */
+    footer .container .col-lg-2 select {
+        width: 100%;
+    }
+
+    /* FOOTER END */
+
+}
+
+@media (min-width: 1200px) {
+
+    /* HEADER */
+    header {
+        padding: 0 !important;
+    }
+
+    /* HEADER END */
+
+    /* MORE POWER TO YOU */
+    main #more-power-to-you .container .row .col-lg-5 .power {
+        padding: 6em 0;
+    }
+
+    /* MORE POWER TO YOU END */
+
+    /* HEALTHY INTERNET */
+    main #healthy-internet .container .row .col-lg-5 img {
+        width: 100%;
+    }
+
+    /* HEALTHY INTERNET END */
+
+    /* LOVE THE WEB */
+    main #love-the-web .container .row .col-lg-5 img {
+        width: 70%;
+    }
+
+    /* LOVE THE WEB END */
+
+    /* SUBMENU */
+    .navbar .container .collapse .navbar-nav .nav-item .dropdown-menu {
+        width: 570px;
+    }
+
+    .navbar .container .collapse .navbar-nav .nav-item .dropdown-menu .container .row .col-xl-6 .link img,
+    .navbar .container .collapse .navbar-nav .nav-item .dropdown-menu .container .row .col-xl-6 .link svg {
+        width: 30px !important;
+    }
+
+    /* SUBMENU END */
+
+}
+
+@media (min-width: 1400px) {
+
+    /* HEADER */
+    header .container .row .col-lg-5 img {
+        transform: scale(1.2);
+    }
+
+    /* HEADER */
+
+
+    /* HEALTHY INTERNET */
+    main #healthy-internet .container .row .col-lg-6 .support {
+        padding: 4em 0;
+    }
+
+    /* HEALTHY INTERNET END */
+
+}
